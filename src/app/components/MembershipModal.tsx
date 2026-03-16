@@ -32,7 +32,7 @@ const MembershipModal = ({ open, onOpenChange }: MembershipModalProps) => {
 
   return (
     <Dialog open={open} onOpenChange={(o) => { if (!o) reset(); onOpenChange(o); }}>
-      <DialogContent className="max-w-lg p-0 border-none bg-background overflow-hidden">
+      <DialogContent className="max-w-lg overflow-hidden border-none bg-background p-0 duration-500 data-[state=open]:slide-in-from-bottom-6 data-[state=closed]:slide-out-to-bottom-4 data-[state=open]:zoom-in-100 data-[state=closed]:zoom-out-100">
         {step < 4 && (
           <>
             {/* Progress */}
