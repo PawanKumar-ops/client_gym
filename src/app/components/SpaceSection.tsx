@@ -4,7 +4,7 @@ const SpaceSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section ref={ref} className="py-32 lg:py-48 px-6 lg:px-12 opacity-0">
+    <section ref={ref} className="pb-32 lg:pb-48 px-6 lg:px-12 opacity-0">
       <div className="container mx-auto">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground mb-6">
           The Space

@@ -5,18 +5,16 @@ const HeroSection = ({ onMembershipClick }: { onMembershipClick: () => void }) =
         <p className="mb-12 text-xs font-semibold uppercase tracking-[0.35em] text-muted-foreground sm:text-sm">
           Premium Fitness Studio
         </p>
-
-        <h1 className="text-display mb-14 text-6xl leading-[0.92] sm:text-7xl lg:text-[9rem]">
+        <h1 className="text-display text-5xl sm:text-7xl lg:text-[6.5rem] leading-[0.9] mb-12">
           FORM.
           <br />
           FUNCTION.
           <br />
           <span className="text-primary">FITNESS.</span>
         </h1>
-
         <button
           onClick={onMembershipClick}
-          className="bg-primary px-14 py-5 text-base font-bold uppercase tracking-[0.15em] text-primary-foreground transition-colors hover:bg-primary/90"
+          className="bg-primary text-primary-foreground px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-primary/90 transition-colors"
         >
           Become a Member
         </button>

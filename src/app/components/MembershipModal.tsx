@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Dialog, DialogContent } from "../components/ui/dialog";
 import { Input } from "../components/ui/input";
 import { Check } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface MembershipModalProps {
   open: boolean;
@@ -32,7 +33,7 @@ const MembershipModal = ({ open, onOpenChange }: MembershipModalProps) => {
 
   return (
     <Dialog open={open} onOpenChange={(o) => { if (!o) reset(); onOpenChange(o); }}>
-      <DialogContent className="max-w-lg overflow-hidden border-none bg-background p-0 duration-500 data-[state=open]:slide-in-from-bottom-6 data-[state=closed]:slide-out-to-bottom-4 data-[state=open]:zoom-in-100 data-[state=closed]:zoom-out-100">
+      <DialogContent className="max-w-lg p-0 border-none bg-background overflow-hidden">
         {step < 4 && (
           <>
             {/* Progress */}
