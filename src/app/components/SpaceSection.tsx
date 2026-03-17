@@ -31,21 +31,21 @@ const SpaceSection = () => {
           </div>
 
           {/* Yellow block (unchanged) */}
-          <div className="col-span-6 lg:col-span-5 aspect-square bg-primary flex items-end p-6 sm:p-8 overflow-hidden">
+          <div className="col-span-6 lg:col-span-5 aspect-square bg-primary flex items-end p-4 sm:p-6 lg:p-8 overflow-hidden">
             <p
-              className="text-primary-foreground text-display leading-tight break-words max-w-full"
+              className="text-primary-foreground text-display leading-[0.95] font-semibold"
               style={{
-                fontSize: "clamp(1.25rem, 2.5vw, 2rem)",
+                fontSize: "clamp(0.9rem, 1.8vw, 2.2rem)",
+                maxWidth: "12ch",
               }}
             >
-              Raw.
+              RAW.
               <br />
-              Industrial.
+              INDUSTRIAL.
               <br />
-              Intentional.
+              INTENTIONAL.
             </p>
           </div>
-
           {/* Natural Light */}
           <div className="col-span-6 lg:col-span-5 aspect-[3/4] relative overflow-hidden">
             <img
