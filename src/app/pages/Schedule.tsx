@@ -80,7 +80,8 @@ const Schedule = () => {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground mb-6">
             Weekly Schedule
           </p>
-          <h1 className="text-display text-4xl sm:text-5xl lg:text-6xl mb-16">
+
+          <h1 className="text-display text-4xl sm:text-5xl lg:text-6xl mb-16 break-words">
             Find your <span className="text-primary">session.</span>
           </h1>
 
@@ -102,7 +103,7 @@ const Schedule = () => {
           </div>
 
           {/* Filters */}
-          <div className="flex gap-3 mb-10">
+          <div className="flex flex-wrap gap-3 mb-10">
             {classTypes.map((type) => (
               <button
                 key={type}
@@ -130,22 +131,31 @@ const Schedule = () => {
               {filtered.map((cls, i) => (
                 <div
                   key={i}
-                  className="border-t border-border py-6 grid grid-cols-12 gap-4 items-center hover:bg-muted/30 transition-colors px-2"
+                  className="border-t border-border py-6 grid grid-cols-12 gap-4 sm:gap-6 items-start sm:items-center hover:bg-muted/30 transition-colors px-2"
                 >
-                  <div className="col-span-3 sm:col-span-2">
-                    <p className="text-display text-lg">{cls.time}</p>
+                  {/* Time */}
+                  <div className="col-span-4 sm:col-span-2">
+                    <p className="text-display text-lg break-words">{cls.time}</p>
                   </div>
-                  <div className="col-span-5 sm:col-span-4">
-                    <p className="font-semibold text-sm">{cls.name}</p>
-                    <p className="text-xs text-muted-foreground mt-1">{cls.trainer}</p>
+
+                  {/* Name */}
+                  <div className="col-span-8 sm:col-span-4">
+                    <p className="font-semibold text-sm break-words">{cls.name}</p>
+                    <p className="text-xs text-muted-foreground mt-1 break-words">{cls.trainer}</p>
                   </div>
-                  <div className="col-span-2 sm:col-span-3">
+
+                  {/* Type */}
+                  <div className="col-span-6 sm:col-span-3">
                     <span className={`inline-block px-3 py-1 text-[10px] font-bold uppercase tracking-widest ${typeColor(cls.type)}`}>
                       {cls.type}
                     </span>
                   </div>
-                  <div className="col-span-2 sm:col-span-3 text-right">
-                    <p className="text-xs text-muted-foreground uppercase tracking-wider">{cls.duration}</p>
+
+                  {/* Duration */}
+                  <div className="col-span-6 sm:col-span-3 text-right">
+                    <p className="text-xs text-muted-foreground uppercase tracking-wider break-words">
+                      {cls.duration}
+                    </p>
                   </div>
                 </div>
               ))}
