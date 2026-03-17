@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.3em] mb-6 text-background/40">Contact</p>
             <div className="space-y-2 text-sm text-background/70">
-              <p>hello@forgefit.com</p>
+              <p>hello@citygymandspa.com</p>
               <p>(555) 012-3456</p>
               <p>42 Industrial Blvd</p>
               <p>Brooklyn, NY 11201</p>
@@ -31,10 +31,10 @@ const Footer = () => {
 
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.3em] mb-6 text-background/40">Social</p>
-            <div className="space-y-2 text-sm text-background/70">
-              <p className="hover:text-primary cursor-pointer transition-colors">Instagram</p>
-              <p className="hover:text-primary cursor-pointer transition-colors">YouTube</p>
-              <p className="hover:text-primary cursor-pointer transition-colors">LinkedIn</p>
+            <div className=" text-sm text-background/70 flex gap-3">
+              <p className="hover:text-primary cursor-pointer transition-colors"><img src="/social/instagram.svg" alt="Instagram"/></p>
+              <p className="hover:text-primary cursor-pointer transition-colors"><img src="/social/facebook.svg" alt="Facebook" /></p>
+              <p className="hover:text-primary cursor-pointer transition-colors"><img src="/social/linkedin.svg" alt="LinkedIn" /></p>
             </div>
           </div>
         </div>

@@ -21,9 +21,9 @@ const TrainersSection = () => {
           Led by the <span className="text-primary">best.</span>
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {trainers.map((trainer) => (
-            <div key={trainer.name} className="border border-border p-8 group hover:border-primary transition-colors duration-300">
+            <div key={trainer.name} className="border border-border rounded-2xl p-8 group hover:border-primary transition-colors duration-300">
               <div className="w-full aspect-[3/4] bg-muted flex items-center justify-center mb-8">
                 <User className="w-16 h-16 text-muted-foreground/40" strokeWidth={1} />
               </div>

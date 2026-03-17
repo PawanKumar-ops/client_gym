@@ -11,7 +11,7 @@ const CTABand = ({ onMembershipClick }: { onMembershipClick: () => void }) => {
           onClick={onMembershipClick}
           className="bg-primary-foreground text-primary px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-primary-foreground/90 transition-colors"
         >
-          Inquire Now
+          Join Now
         </button>
       </div>
     </section>
