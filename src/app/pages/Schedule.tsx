@@ -19,7 +19,7 @@ const schedule: Record<string, ClassItem[]> = {
     { time: "6:00 AM", name: "Barbell Foundations", type: "Strength", trainer: "Alex Kovac", duration: "60 min" },
     { time: "7:30 AM", name: "Morning Burn", type: "Metcon", trainer: "Maya Chen", duration: "45 min" },
     { time: "12:00 PM", name: "Power Hour", type: "Strength", trainer: "Elena Voss", duration: "60 min" },
-    { time: "5:30 PM", name: "FORGE Metcon", type: "Metcon", trainer: "Maya Chen", duration: "45 min" },
+    { time: "5:30 PM", name: "City Gym and Spa Metcon", type: "Metcon", trainer: "Maya Chen", duration: "45 min" },
     { time: "7:00 PM", name: "Restore", type: "Recovery", trainer: "James Okafor", duration: "50 min" },
   ],
   Tuesday: [
@@ -36,7 +36,7 @@ const schedule: Record<string, ClassItem[]> = {
   ],
   Thursday: [
     { time: "6:00 AM", name: "Squat Program", type: "Strength", trainer: "Elena Voss", duration: "60 min" },
-    { time: "7:30 AM", name: "FORGE Metcon", type: "Metcon", trainer: "Maya Chen", duration: "45 min" },
+    { time: "7:30 AM", name: "City Gym and Spa Metcon", type: "Metcon", trainer: "Maya Chen", duration: "45 min" },
     { time: "12:00 PM", name: "Active Recovery", type: "Recovery", trainer: "James Okafor", duration: "50 min" },
     { time: "6:00 PM", name: "Upper Body Power", type: "Strength", trainer: "Alex Kovac", duration: "60 min" },
   ],

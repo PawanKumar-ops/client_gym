@@ -17,7 +17,7 @@ const classes = [
   },
   {
     icon: Flame,
-    name: "FORGE Metcon",
+    name: "City Gym and Spa Metcon",
     type: "Metcon",
     duration: "45 min",
     level: "Intermediate+",

@@ -19,7 +19,7 @@ const Navbar = ({ onMembershipClick }: { onMembershipClick: () => void }) => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-6 lg:px-12 flex items-center justify-between h-16">
         <Link to="/" className="text-display text-xl tracking-tight">
-          FORGE
+          City Gym and Spa
         </Link>
 
         <div className="hidden lg:flex items-center gap-8">

@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-1">
-            <p className="text-display text-2xl mb-4">FORGE</p>
+            <p className="text-display text-2xl mb-4">City Gym and Spa</p>
             <p className="text-background/50 text-sm leading-relaxed">
               Form. Function. Fitness.<br />Engineered for results.
             </p>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-background/30 uppercase tracking-widest">© 2024 FORGE. All rights reserved.</p>
+          <p className="text-xs text-background/30 uppercase tracking-widest">© 2024 City Gym and Spa. All rights reserved.</p>
           <p className="text-xs text-background/30 uppercase tracking-widest">Privacy Policy</p>
         </div>
       </div>

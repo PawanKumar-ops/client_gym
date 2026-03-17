@@ -15,7 +15,7 @@ const plans = [
       "Unlimited group classes",
       "Access during staffed hours",
       "Locker room & showers",
-      "FORGE mobile app",
+      "City Gym and Spa mobile app",
       "Monthly body composition scan",
     ],
     featured: false,
@@ -63,7 +63,7 @@ const Pricing = () => {
   const faqs = [
     { q: "Is there a contract or commitment?", a: "No long-term contracts. All memberships are month-to-month with 30 days notice to cancel." },
     { q: "Can I freeze my membership?", a: "Yes. You can freeze for up to 2 months per year at no additional cost." },
-    { q: "Do you offer a trial?", a: "We offer a complimentary 3-day trial for all new members. Come experience FORGE before you commit." },
+    { q: "Do you offer a trial?", a: "We offer a complimentary 3-day trial for all new members. Come experience City Gym and Spa before you commit." },
     { q: "What's included in personal training?", a: "1-on-1 sessions with our certified coaches including program design, technique coaching, and progress tracking." },
   ];
 

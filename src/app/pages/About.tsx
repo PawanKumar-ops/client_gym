@@ -12,7 +12,7 @@ const values = [
 ];
 
 const timeline = [
-  { year: "2019", event: "FORGE opens its doors in a 2,000 sq. ft. Brooklyn warehouse." },
+  { year: "2019", event: "City Gym and Spa opens its doors in a 2,000 sq. ft. Brooklyn warehouse." },
   { year: "2020", event: "Pivoted to outdoor and virtual training. Zero members lost." },
   { year: "2021", event: "Expanded to 4,200 sq. ft. with custom-built training floor." },
   { year: "2023", event: "Launched Recovery Lab and hired a full-time Doctor of Physical Therapy." },
@@ -51,7 +51,7 @@ const About = () => {
           </div>
           <div className="lg:pt-8">
             <p className="text-muted-foreground text-lg leading-relaxed">
-              FORGE was born from a simple frustration: gyms are either soulless big-boxes or overcrowded boutiques optimizing for Instagram, not results. We built the alternative — a space where architecture serves function, coaching is world-class, and every detail exists for one reason: to make you better.
+              City Gym and Spa was born from a simple frustration: gyms are either soulless big-boxes or overcrowded boutiques optimizing for Instagram, not results. We built the alternative — a space where architecture serves function, coaching is world-class, and every detail exists for one reason: to make you better.
             </p>
           </div>
         </div>

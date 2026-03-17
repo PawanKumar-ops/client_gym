@@ -19,7 +19,7 @@ const PhilosophySection = () => {
           </div>
           <div className="lg:pt-16">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md">
-              Every square foot of FORGE is designed with intention. Industrial architecture meets precision training methodology. No shortcuts. No compromises. Just results, engineered.
+              Every square foot of City Gym and Spa is designed with intention. Industrial architecture meets precision training methodology. No shortcuts. No compromises. Just results, engineered.
             </p>
           </div>
         </div>
