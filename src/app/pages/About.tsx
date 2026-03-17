@@ -48,7 +48,7 @@ const About = () => {
       </section>
 
       {/* Mission */}
-      <section ref={missionRef} className="px-6 lg:px-12 opacity-0">
+      <section ref={missionRef} className="pb-24 lg:pb-32 px-6 lg:px-12 opacity-0">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground mb-6">Mission</p>

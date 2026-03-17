@@ -62,7 +62,7 @@ const MembershipModal = ({ open, onOpenChange }: MembershipModalProps) => {
         onOpenChange(o);
       }}
     >
-      <DialogContent className="max-w-lg p-0 border-none bg-transparent overflow-hidden">
+      <DialogContent className="max-w-lg p-0 border-none rounded-xl bg-transparent overflow-hidden">
 
         {/* 🔥 THIS is the full white card animation */}
         <motion.div

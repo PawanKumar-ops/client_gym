@@ -8,7 +8,7 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Essential",
-    price: "89",
+    price: "899",
     period: "/month",
     description: "For those ready to begin.",
     features: [
@@ -22,7 +22,7 @@ const plans = [
   },
   {
     name: "Performance",
-    price: "149",
+    price: "1499",
     period: "/month",
     description: "For those ready to commit.",
     features: [
@@ -38,7 +38,7 @@ const plans = [
   },
   {
     name: "Elite",
-    price: "249",
+    price: "2499",
     period: "/month",
     description: "For those who demand the best.",
     features: [
@@ -101,7 +101,7 @@ const Pricing = () => {
                   {plan.description}
                 </p>
                 <div className="mb-8">
-                  <span className="text-display text-5xl">${plan.price}</span>
+                  <span className="text-display text-5xl">₹{plan.price}</span>
                   <span className={`text-sm ${plan.featured ? "text-background/60" : "text-muted-foreground"}`}>{plan.period}</span>
                 </div>
                 <ul className="space-y-3 mb-10 flex-1">
