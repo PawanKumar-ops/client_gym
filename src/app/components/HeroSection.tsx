@@ -5,7 +5,7 @@ const HeroSection = ({ onMembershipClick }: { onMembershipClick: () => void }) =
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/public/city gym home img 1.jpg"
+          src="/city gym home img 1.jpg"
           alt="Fitness Background"
           className="w-full h-full object-cover"
         />

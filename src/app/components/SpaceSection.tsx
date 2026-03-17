@@ -19,7 +19,7 @@ const SpaceSection = () => {
           {/* Concrete & Steel */}
           <div className="col-span-12 lg:col-span-7 aspect-[4/3] relative overflow-hidden">
             <img
-              src="/public/city gym home img 3.jpg"
+              src="/city gym home img 3.jpg"
               alt="Concrete & Steel"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -44,7 +44,7 @@ const SpaceSection = () => {
           {/* Natural Light */}
           <div className="col-span-6 lg:col-span-5 aspect-[3/4] relative overflow-hidden">
             <img
-              src="/public/city gym home img 2.jpg"
+              src="/city gym home img 2.jpg"
               alt="Natural Light"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -58,7 +58,7 @@ const SpaceSection = () => {
           {/* Training Floor */}
           <div className="col-span-12 lg:col-span-4 aspect-[4/3] relative overflow-hidden">
             <img
-              src="/public/city gym home img 4.jpg"
+              src="/city gym home img 4.jpg"
               alt="Training Floor"
               className="absolute inset-0 w-full h-full object-cover"
             />
