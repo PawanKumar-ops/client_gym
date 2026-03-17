@@ -31,8 +31,13 @@ const SpaceSection = () => {
           </div>
 
           {/* Yellow block (unchanged) */}
-          <div className="col-span-6 lg:col-span-5 aspect-square bg-primary flex items-end p-8">
-            <p className="text-primary-foreground text-display text-2xl lg:text-3xl">
+          <div className="col-span-6 lg:col-span-5 aspect-square bg-primary flex items-end p-6 sm:p-8 overflow-hidden">
+            <p
+              className="text-primary-foreground text-display leading-tight break-words max-w-full"
+              style={{
+                fontSize: "clamp(1.25rem, 2.5vw, 2rem)",
+              }}
+            >
               Raw.
               <br />
               Industrial.
