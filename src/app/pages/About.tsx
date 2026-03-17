@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            <img src="gym.svg" alt="weight-lifter" className="w-full max-w-full sm:max-w-md md:max-w-lg lg:max-w-lg" />
+            <img src="gym.svg" alt="weight-lifter" className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg" />
           </div>
         </div>
       </section>
