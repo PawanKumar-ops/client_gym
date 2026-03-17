@@ -37,6 +37,7 @@ const SpaceSection = () => {
               style={{
                 fontSize: "clamp(0.9rem, 1.8vw, 2.2rem)",
                 maxWidth: "12ch",
+                
               }}
             >
               RAW.
