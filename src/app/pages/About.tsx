@@ -31,17 +31,24 @@ const About = () => {
       <Navbar onMembershipClick={() => setMembershipOpen(true)} />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 px-6 lg:px-12">
+      <section className="flex flex-row pt-32 px-6 lg:px-12">
+      <div className="pb-52">
         <div className="container mx-auto">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground mb-6">About</p>
           <h1 className="text-display text-4xl sm:text-5xl lg:text-6xl max-w-3xl">
             Built different. <span className="text-primary">By design.</span>
           </h1>
         </div>
+      </div>
+
+
+      <div>
+        <img src="gym.svg" alt="weight-lifter" />
+      </div>
       </section>
 
       {/* Mission */}
-      <section ref={missionRef} className="py-24 lg:py-32 px-6 lg:px-12 opacity-0">
+      <section ref={missionRef} className="px-6 lg:px-12 opacity-0">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground mb-6">Mission</p>
