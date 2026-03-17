@@ -31,12 +31,13 @@ const SpaceSection = () => {
           </div>
 
           {/* Yellow block (unchanged) */}
-          <div className="col-span-6 lg:col-span-5 aspect-square bg-primary flex items-end p-4 sm:p-6 lg:p-8 overflow-hidden">
+          <div className="col-span-6 lg:col-span-5 aspect-square bg-primary flex items-end p-4 sm:p-6 lg:p-8 overflow-hidden h-full">
             <p
               className="text-primary-foreground text-display leading-[0.95] font-semibold"
               style={{
                 fontSize: "clamp(0.9rem, 1.8vw, 2.2rem)",
                 maxWidth: "12ch",
+                
               }}
             >
               RAW.
