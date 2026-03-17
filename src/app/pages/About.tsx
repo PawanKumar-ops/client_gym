@@ -31,9 +31,9 @@ const About = () => {
       <Navbar onMembershipClick={() => setMembershipOpen(true)} />
 
       {/* Hero */}
-      <section className="px-6 pt-24 pb-12 sm:pt-28 lg:px-12 lg:pt-32 lg:pb-20">
+      <section className="px-6 pt-24 sm:pt-28 lg:px-12 lg:pt-24">
         <div className="container mx-auto grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="pb-0 lg:pb-24">
+          <div className="pb-0 lg:pb-32">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground mb-6">About</p>
             <h1 className="text-display text-4xl sm:text-5xl lg:text-6xl max-w-3xl">
               Built different. <span className="text-primary">By design.</span>
