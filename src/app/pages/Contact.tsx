@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import MembershipModal from "@/components/MembershipModal";
+import { JoinNowModal } from "@/components/join-now-modal";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -106,7 +106,7 @@ const Contact = () => {
       </section>
 
       <Footer />
-      <MembershipModal open={membershipOpen} onOpenChange={setMembershipOpen} />
+      <JoinNowModal open={membershipOpen} onClose={() => setMembershipOpen(false)} />
     </div>
   );
 };

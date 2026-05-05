@@ -7,7 +7,7 @@ import TrainingSection from "@/components/TrainingSection";
 import TrainersSection from "@/components/TrainersSection";
 import CTABand from "@/components/CTABand";
 import Footer from "@/components/Footer";
-import MembershipModal from "@/components/MembershipModal";
+import { JoinNowModal } from "@/components/join-now-modal";
 
 const Index = () => {
   const [membershipOpen, setMembershipOpen] = useState(false);
@@ -22,7 +22,7 @@ const Index = () => {
       <TrainersSection />
       <CTABand onMembershipClick={() => setMembershipOpen(true)} />
       <Footer />
-      <MembershipModal open={membershipOpen} onOpenChange={setMembershipOpen} />
+      <JoinNowModal open={membershipOpen} onClose={() => setMembershipOpen(false)} />
     </div>
   );
 };

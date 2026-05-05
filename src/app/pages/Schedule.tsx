@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import MembershipModal from "@/components/MembershipModal";
+import { JoinNowModal } from "@/components/join-now-modal";
 
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 const classTypes = ["All", "Strength", "Metcon", "Recovery"] as const;
@@ -165,7 +165,7 @@ const Schedule = () => {
       </div>
 
       <Footer />
-      <MembershipModal open={membershipOpen} onOpenChange={setMembershipOpen} />
+      <JoinNowModal open={membershipOpen} onClose={() => setMembershipOpen(false)} />
     </div>
   );
 };
