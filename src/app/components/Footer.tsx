@@ -1,3 +1,5 @@
+import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-20 px-6 lg:px-12">
@@ -31,10 +33,19 @@ const Footer = () => {
 
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.3em] mb-6 text-background/40">Social</p>
-            <div className=" text-sm text-background/70 flex gap-3">
-              <p className="hover:text-primary cursor-pointer transition-colors"><img src="/social/instagram.svg" alt="Instagram"/></p>
-              <p className="hover:text-primary cursor-pointer transition-colors"><img src="/social/facebook.svg" alt="Facebook" /></p>
-              <p className="hover:text-primary cursor-pointer transition-colors"><img src="/social/linkedin.svg" alt="LinkedIn" /></p>
+            <div className="flex gap-3">
+              <a href="#" className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <Facebook className="w-4 h-4" />
+              </a>
+              <a href="#" className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <Twitter className="w-4 h-4" />
+              </a>
+              <a href="#" className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a href="#" className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <Youtube className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>

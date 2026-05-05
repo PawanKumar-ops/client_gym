@@ -2,10 +2,10 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { User } from "lucide-react";
 
 const trainers = [
-  { name: "ALEX KOVAC", specialty: "Strength & Powerlifting", credentials: "CSCS, USAW-L2" },
-  { name: "MAYA CHEN", specialty: "Metabolic Conditioning", credentials: "CF-L3, NASM-CPT" },
-  { name: "JAMES OKAFOR", specialty: "Recovery & Mobility", credentials: "DPT, FMS-L2" },
-  { name: "ELENA VOSS", specialty: "Olympic Lifting", credentials: "USAW-L3, MS Kinesiology" },
+  { name: "RAJESH SHARMA", specialty: "Strength & Powerlifting", credentials: "CSCS, USAW-L2" },
+  { name: "YASH VATS", specialty: "Metabolic Conditioning", credentials: "CF-L3, NASM-CPT" },
+  { name: "KESHAV VERMA", specialty: "Recovery & Mobility", credentials: "DPT, FMS-L2" },
+  { name: "ANUJ AGGARWAL", specialty: "Olympic Lifting", credentials: "USAW-L3, MS Kinesiology" },
 ];
 
 const TrainersSection = () => {

@@ -186,7 +186,7 @@ export function JoinNowModal({
                       autoFocus
                       value={data.firstName}
                       onChange={(e) => setData({ ...data, firstName: e.target.value })}
-                      placeholder="Alex"
+                      placeholder="First Name"
                       className="mt-1.5 h-11 bg-white border-black/15 focus-visible:ring-yellow-400/40 focus-visible:border-yellow-400"
                     />
                   </div>
@@ -196,7 +196,7 @@ export function JoinNowModal({
                       id="lastName"
                       value={data.lastName}
                       onChange={(e) => setData({ ...data, lastName: e.target.value })}
-                      placeholder="Morgan"
+                      placeholder="Last Name"
                       className="mt-1.5 h-11 bg-white border-black/15 focus-visible:ring-yellow-400/40 focus-visible:border-yellow-400"
                     />
                   </div>
@@ -218,7 +218,7 @@ export function JoinNowModal({
                       type="tel"
                       value={data.phone}
                       onChange={(e) => setData({ ...data, phone: e.target.value })}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+91 987654321"
                       className="mt-1.5 h-11 bg-white border-black/15 focus-visible:ring-yellow-400/40 focus-visible:border-yellow-400"
                     />
                   </div>
@@ -300,7 +300,7 @@ export function JoinNowModal({
       <Button
         onClick={next}
         disabled={!canProceed()}
-        className="bg-yellow-400 hover:bg-yellow-300 text-black px-6 h-11 rounded-full shadow-[0_8px_24px_-8px_rgba(250,204,21,0.7)] disabled:bg-black/10 disabled:text-black/40 disabled:shadow-none transition-all"
+        className="bg-yellow-400 hover:bg-yellow-300 text-black px-6 rounded-full shadow-[0_8px_24px_-8px_rgba(250,204,21,0.7)] disabled:bg-black/10 disabled:text-black/40 disabled:shadow-none transition-all"
       >
         {step === TOTAL_STEPS - 1 ? "Submit" : "Continue"}
         <ArrowRight className="size-4 ml-1" />
@@ -310,7 +310,7 @@ export function JoinNowModal({
     <div className="px-6 pb-6 pt-2">
       <Button
         onClick={onClose}
-        className="w-full bg-yellow-400 hover:bg-yellow-300 text-black h-11 rounded-full shadow-[0_8px_24px_-8px_rgba(250,204,21,0.7)]"
+        className="w-full bg-yellow-400 hover:bg-yellow-300 text-black h-11 rounded-full "
       >
         Let's go
       </Button>
