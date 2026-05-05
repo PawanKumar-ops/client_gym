@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import MembershipModal from "@/components/MembershipModal";
+import { JoinNowModal } from "@/components/join-now-modal";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Dumbbell, Flame, Heart, Zap, Mountain, Users } from "lucide-react";
 
@@ -169,9 +169,9 @@ const Classes = () => {
       </section>
 
       <Footer />
-      <MembershipModal
+      <JoinNowModal
         open={membershipOpen}
-        onOpenChange={setMembershipOpen}
+        onClose={() => setMembershipOpen(false)}
       />
     </div>
   );
